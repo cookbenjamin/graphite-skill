@@ -4,7 +4,7 @@ about: Suggest a new capability or improvement to the skill
 labels: enhancement
 ---
 
-**Before submitting:** Search [open and closed issues](https://github.com/Nisus74/pencil-skill/issues?q=is%3Aissue) for duplicates.
+**Before submitting:** Search [open and closed issues](https://github.com/cookbenjamin/graphite-skill/issues?q=is%3Aissue) for duplicates.
 
 **What problem does this solve?**
 <!-- Specific scenario where the skill falls short -->

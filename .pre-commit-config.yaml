@@ -33,3 +33,10 @@ repos:
         language: system
         pass_filenames: false
         files: '^tools/skill-lint\.py$|^tools/test_skill_lint\.py$'
+
+      - id: graphite-examples
+        name: Graphite references and five-tool examples
+        entry: python3 tools/validate-graphite.py
+        language: system
+        pass_filenames: false
+        always_run: true

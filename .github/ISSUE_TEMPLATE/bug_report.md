@@ -4,7 +4,7 @@ about: Something in the skill is wrong, fails to trigger, or triggers incorrectl
 labels: bug
 ---
 
-**Before submitting:** Search [open and closed issues](https://github.com/Nisus74/pencil-skill/issues?q=is%3Aissue) for duplicates.
+**Before submitting:** Search [open and closed issues](https://github.com/cookbenjamin/graphite-skill/issues?q=is%3Aissue) for duplicates.
 
 ## What happened
 
@@ -19,8 +19,8 @@ labels: bug
 - **AI coding tool:** <!-- Claude Code / Cursor / Codex -->
 - **Tool version:** <!-- e.g., Claude Code 2.5.1 -->
 - **Model:** <!-- e.g., claude-sonnet-4-6 -->
-- **pencil-dev-skill version:** <!-- check plugin.json -->
-- **Pencil MCP server version:** <!-- if known; leave blank if unsure -->
+- **graphite-design version:** <!-- check plugin.json -->
+- **Graphite MCP server version:** <!-- if known; leave blank if unsure -->
 
 ## Evidence
 

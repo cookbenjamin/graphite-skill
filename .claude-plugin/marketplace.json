@@ -1,26 +1,25 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "pencil-dev-skill",
-  "metadata": {
-    "description": "Teach AI coding tools to design, edit, and validate pencil.dev UIs through the Pencil MCP server."
-  },
+  "name": "graphite-design",
   "owner": {
-    "name": "Travis Polland",
-    "email": "tpolland@gmail.com"
+    "name": "cookbenjamin"
+  },
+  "metadata": {
+    "description": "Graphite interface design, adapted from Nisus74/pencil-skill."
   },
   "plugins": [
     {
-      "name": "pencil-dev-skill",
-      "description": "Use this skill for any pencil.dev work: designing UI in a .pen file, editing an open Pencil canvas, instantiating components from a .lib.pen library, fixing batch_design schema errors, or recovering from Pencil MCP host-not-connected issues. Routes every read and write through the Pencil MCP server for schema validation, live screenshots, and editor sync.",
-      "version": "0.8.0",
-      "author": {
-        "name": "Travis Polland",
-        "email": "tpolland@gmail.com"
-      },
+      "name": "graphite-design",
       "source": "./",
+      "description": "Interface design with Graphite\u2019s five MCP tools.",
+      "version": "0.9.0",
       "category": "design",
-      "homepage": "https://github.com/Nisus74/pencil-skill",
-      "tags": ["design", "pencil-dev", "ui", "mcp", "design-tool", "ai-skill"]
+      "homepage": "https://github.com/cookbenjamin/graphite-skill",
+      "tags": [
+        "design",
+        "graphite",
+        "mcp"
+      ]
     }
   ]
 }

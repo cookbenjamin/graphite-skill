@@ -1,27 +1,7 @@
-# Privacy Policy
+# Data handling
 
-**Last updated:** 17 May 2026
+The installed graphite-design skill is local Markdown guidance. It has no telemetry or runtime service. The validation helper reads the skill files. The optional smoke helper sends generated temporary designs to the configured Graphite MCP server and can save local test captures.
 
-Pencil Dev Skill is an open-source AI coding skill. It runs locally inside your AI coding tool (Claude Code, Codex, Gemini CLI, Copilot CLI, or Cursor) and does not collect, store, or transmit any personal data.
+Graphite, the agent client, model provider and any browser pages or generation provider have their own data handling. This skill does not imply that all those communications stay on the local machine. Inspect the configured tools and requested workflow before sharing sensitive design content.
 
-## What this plugin does
-
-The plugin installs skill files into your AI tool's local skill directory. When you work on a pencil.dev design file, the skill instructs your AI tool to call the Pencil MCP server on your machine. No data leaves your environment through this plugin.
-
-## Data we do not collect
-
-This plugin collects nothing. There are no servers, no analytics, no telemetry, no usage tracking, and no user accounts.
-
-## Third-party services
-
-The Pencil MCP server is a product of pencil.dev. When your AI tool calls it, that communication is between your machine and pencil.dev's software. Pencil.dev's own privacy policy governs that behaviour. Refer to pencil.dev for details.
-
-Your AI coding tool (Claude Code, Codex, Gemini CLI, etc.) also has its own privacy policy. This plugin does not change how those tools handle your data.
-
-## Open source
-
-This plugin is released under the MIT licence. The full source code is at [github.com/Nisus74/pencil-skill](https://github.com/Nisus74/pencil-skill). You can inspect exactly what it does.
-
-## Contact
-
-For privacy questions, open an issue at [github.com/Nisus74/pencil-skill/issues](https://github.com/Nisus74/pencil-skill/issues) or email tpolland@gmail.com.
+The original Pencil shadcn kit is an external local asset. The fork does not bundle it or upload it as part of a test. Its source bytes and accompanying provenance/license remain separate from the skill.

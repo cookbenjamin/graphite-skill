@@ -1,0 +1,40 @@
+{
+  "skill_name": "graphite-design",
+  "evals": [
+    {
+      "id": 1,
+      "name": "small-edit-scope",
+      "prompt": "Use Graphite to change only the selected button label to Save.",
+      "expected_output": "Loads current guide and app state; reads target; updates the actual descendant through execute; visually checks the button. Preserves unrelated names, tokens, modes and screens.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "original-kit-import",
+      "prompt": "Use my original Pencil shadcn library to add a card with an input and button in Graphite. Keep the original library file unchanged.",
+      "expected_output": "Reads component guide; preserves imports; uses qualified actual component IDs and axes; fills instance slots or overrides; checks screenshot and warnings; source bytes unchanged.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "native-layout",
+      "prompt": "Find why this card clips its text and fix the layout.",
+      "expected_output": "Reads the subtree and native Get visitor bounds/problems through execute; fixes real wrapping or sizing; inspects actual screenshot.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "missing-provider",
+      "prompt": "Generate an image in Graphite, but the app reports generation unavailable.",
+      "expected_output": "Reports unavailable provider accurately; does not claim generation succeeded or silently change service/configuration.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "five-tool-discovery",
+      "prompt": "The Graphite tools are deferred. Open a new design and export a PNG.",
+      "expected_output": "Discovers the five Graphite tools; reads live guides and app state; uses execute with the intended absolute new path, Insert and Export. Does not call a legacy standalone Pencil tool.",
+      "files": []
+    }
+  ]
+}

@@ -19,3 +19,4 @@ jobs:
       - run: pip install pre-commit pyyaml
       - run: pre-commit run --all-files --show-diff-on-failure
       - run: python3 tools/test_skill_lint.py
+      - run: python3 tools/validate-graphite.py
